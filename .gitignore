@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Screenshots and generated reviews (contain personal info)
+# The .txt sidecars live inside screenshots/, so screenshots/ covers them
+screenshots/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Quota state
+.quota_state
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
